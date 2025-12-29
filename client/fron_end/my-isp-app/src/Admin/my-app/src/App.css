@@ -1,0 +1,19 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+/* Sidebar fixed height */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* Pura page scroll band */
+}
+
+.wrapper {
+  height: 100vh;
+  overflow: hidden;
+}

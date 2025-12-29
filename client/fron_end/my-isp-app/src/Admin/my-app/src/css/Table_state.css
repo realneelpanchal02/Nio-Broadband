@@ -1,0 +1,40 @@
+.table-admin {
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* Scrollable tbody */
+.table-admin table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-admin thead {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table-admin tbody {
+  display: block;
+  max-height: 240px; /* ≈ 5 rows */
+  overflow-y: auto;
+  width: 100%;
+}
+
+.table-admin tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+/* Smooth admin-like scrollbar */
+.table-admin tbody::-webkit-scrollbar {
+  width: 6px;
+}
+
+.table-admin tbody::-webkit-scrollbar-thumb {
+  background-color: #adb5bd;
+  border-radius: 10px;
+}
